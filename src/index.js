@@ -8,8 +8,8 @@ const backbutton = document.getElementById('test');
 
 
 
-backbutton.addEventListener('click', response)
+backbutton.addEventListener('click', await response);
 
- function response(){
+async function response(){
     alert('123');
-}
+};

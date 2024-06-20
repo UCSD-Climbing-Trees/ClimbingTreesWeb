@@ -1,18 +1,76 @@
-.background {
+/* CSS Attributes ----------------------------------------------------------------------------------- */
+
+/*  
+ * Page Background Styling
+ */
+html {
     background-color: #fc9;
-    width: auto;
+    scroll-behavior: smooth;
 }
 
-.navbar{
-    background-color: brown;
-    height: auto;
-    width: auto;
-    padding-bottom: 80px;
+/* 
+ * Setting Margins to 0px
+ */
+body {
+    margin: 0px;
 }
+
+/* 
+ * Navigation Bar Styling 
+ */
+nav {
+    background-color: rgba(70, 100, 36, 0.712);
+    height: 100px;
+    width: auto;
+    list-style-type: none;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.2);
+}
+
+li a{
+    color: burlywood;
+    font-size: large;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    margin: 40px;
+}
+
+li a:hover {
+    transition: 1.5s;
+    border-radius: 25px;
+    background: #73AD21;
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    color:aqua;
+}
+
+/* 
+ * Page Border
+ */
+section {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+footer {
+    height: 12vh;
+    box-sizing: border-box;
+    background: brown;
+}
+
+
+/* CSS CLasses ----------------------------------------------------------------------------------- */
+
+/*
+ * Home Page Title
+ */
 
 .title {
     font: italic;
     color: black;
-    padding-left: 50px;
+    margin: 50px 100px;
   }
 
