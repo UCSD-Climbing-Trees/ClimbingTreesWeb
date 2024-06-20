@@ -24,10 +24,10 @@ nav {
     width: auto;
     list-style-type: none;
     box-shadow: 0 3px 4px 0 rgba(0,0,0,.2);
+    justify-content: space-evenly;
 }
 
 li a{
-    box-sizing: border-box;
     color: burlywood;
     font-size: large;
     float: left;
@@ -73,8 +73,19 @@ footer {
  */
 
 .title {
-    font: italic;
+    font-weight: bold;
     color: black;
+    font-size: xx-large;
     margin: 50px 100px;
   }
+
+.titleDescription{
+    
+}
+
+.sectionTitle {
+    font-weight: bold;
+    color: black;
+    font-size: xx-large;
+}
 
