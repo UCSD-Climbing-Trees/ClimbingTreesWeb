@@ -27,6 +27,7 @@ nav {
 }
 
 li a{
+    box-sizing: border-box;
     color: burlywood;
     font-size: large;
     float: left;
@@ -37,10 +38,11 @@ li a{
 }
 
 li a:hover {
+    width: 60px;
+    outline:1px solid white;
     transition: 1.5s;
     border-radius: 25px;
     background: #73AD21;
-    width: 70px;
     height: auto;
     cursor: pointer;
     color:aqua;
@@ -54,7 +56,9 @@ section {
     box-sizing: border-box;
 }
 
-
+/* 
+ * Contact Page Style 
+ */
 footer {
     height: 12vh;
     box-sizing: border-box;
